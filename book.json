@@ -1,0 +1,56 @@
+{
+  "title": "cornerstone analysis",
+  "author": "HarryChen",
+  "description": "cornerstone及其生态库介绍和源码解析",
+  "language": "zh-hans",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  },
+  "plugins": [
+    "github",
+    "livereload"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/HarryChen0506/cornerstone-analysis.git"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "HarryChen0506",
+          "repo": "cornerstone-analysis",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "donate": {
+      "alipay": "./source/images/donate.png",
+      "title": "",
+      "button": "赞赏",
+      "alipayText": " "
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "favicon": {
+      "shortcut": "./source/images/favicon.jpg",
+      "bookmark": "./source/images/favicon.jpg",
+      "appleTouch": "./source/images/apple-touch-icon.jpg",
+      "appleTouchMore": {
+        "120x120": "./source/images/apple-touch-icon.jpg",
+        "180x180": "./source/images/apple-touch-icon.jpg"
+      }
+    }
+  }
+}
