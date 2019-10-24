@@ -8,6 +8,7 @@
     * [概念](core/concepts/enabledElement.md)
         * [Enabled Element](core/concepts/enabledElement.md)
         * [Image Ids](core/concepts/imageIds.md)
+        * [Image Loaders](core/concepts/imageLoaders.md)
 * [Conerstone Tools](introduction/认识cornerstone.md)
     * [待写](tools/continue.md)
 * [Conerstone Image Loader](introduction/认识cornerstone.md)
