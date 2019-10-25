@@ -57,7 +57,7 @@ var imagePlaneModule = cornerstone.metaData.get('imagePlaneModule', 'ct://1');
 Cornerstone在metaData模块里的getMetaData，会迭代所有注册的providers，一旦发现执行provider函数返回的结果不为空，则说明已经获取了用户所想要的metadata信息。通常在某些第三方库的Image Loader里已经写好一些provider并注册到cornerstone里了。
 
 ``` 
-// Cornerstone内部获取metaData
+// Cornerstone暴露的获取metaData api
 function getMetaData (type, imageId) {
   // Invoke each provider in priority order until one returns something
   for (let i = 0; i < providers.length; i++) {

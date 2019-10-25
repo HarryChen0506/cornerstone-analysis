@@ -15,6 +15,8 @@
         * [Rendering Loop](core/concepts/renderingLoop.md)
         * [Rendering Pipeline](core/concepts/renderingPipeline.md)
         * [Metadata Providers](core/concepts/metadataProviders.md)
+        * [Image Cache](core/concepts/imageCache.md)
+        * [Modality LUT and VOI LUT](core/concepts/modalityLUTandVoiLUT.md)
         
 * [Conerstone Tools](introduction/认识cornerstone.md)
     * [待写](tools/continue.md)
