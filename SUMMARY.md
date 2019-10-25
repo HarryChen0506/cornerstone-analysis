@@ -1,10 +1,7 @@
 # Summary
 * [前言](README.md)
 * [总览](introduction/index.md)
-    * [初识](introduction/index.md)
-    * [原理和架构](introduction/theory.md)
 * [Conerstone Core](core/index.md)
-    * [摘要](core/index.md)
     * [概念](core/concepts/enabledElement.md)
         * [Enabled Element](core/concepts/enabledElement.md)
         * [Image Ids](core/concepts/imageIds.md)

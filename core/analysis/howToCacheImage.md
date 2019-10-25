@@ -4,6 +4,7 @@ Cornerstone设计的图片缓存机制，在用户切换图片时起到非常关
 
 loadImage
 ```
+// 代码略有改动，只展示了核心原理，具体步骤忽略
 export function loadImage (imageId, options) {
   // 从缓存里获取数据
   const imageLoadObject = getImageLoadObject(imageId);

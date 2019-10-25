@@ -5,6 +5,7 @@ Cornerstone对某个元素进行enable(element)操作后，将会生成一个`ca
 
 enable.js
 ```
+// 代码略有改动，只展示了核心原理，具体步骤忽略
 export default function (element, options) {
   const canvas = getCanvas(element);
   const enabledElement = {
