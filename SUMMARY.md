@@ -19,9 +19,9 @@
         * [Modality LUT and VOI LUT](core/concepts/modalityLUTandVoiLUT.md)
     * [分析](core/concepts/enabledElement.md)
         * [如何实现坐标系转换](core/analysis/howToTransformCoordinate.md)
-        * [渲染过程发生了什么](core/analysis/howToTransformCoordinate.md)
-        * [如何实现缓存机制](core/analysis/howToTransformCoordinate.md)
-        * [运用了哪些设计模式](core/analysis/howToTransformCoordinate.md)
+        * [渲染过程发生了什么](core/analysis/howToRender.md)
+        * [如何实现缓存机制](core/analysis/howToCacheImage.md)
+        * [运用了哪些设计模式](core/analysis/designPattern.md)
         
 * [Conerstone Tools](introduction/认识cornerstone.md)
     * [待写](tools/continue.md)
