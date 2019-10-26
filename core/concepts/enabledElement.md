@@ -2,7 +2,7 @@
 
 > In Cornerstone, an Enabled Element is an HTMLElement (typically a div) which we display an interactive medical image inside of.
 
-Enabled Element 就是一个可以展示和交互医疗影像的容器。通过特定的接口，cornerstone给指定的容器赋能，将enabledElement纳入了cornentstone的管理中。
+Enabled Element 就是一个可以展示和交互医疗影像的容器。通过特定的接口，Cornerstone给指定的容器赋能，将enabledElement纳入了Cornentstone的管理中。
 
 为了展示图像，开发者需要遵循以下步骤：
 

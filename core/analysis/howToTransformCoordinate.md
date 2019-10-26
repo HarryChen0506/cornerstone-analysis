@@ -29,7 +29,7 @@
     });
 ```
 
-为了实现在图片上添加一个标记这样的需求，我们要先将canvas的坐标系转换成像素坐标系。cornerstone.setToPixelCoordinateSystem()这个接口可以实现这样的坐标系转换。
+为了实现在图片上添加一个标记这样的需求，我们要先将canvas的坐标系转换成像素坐标系。cornerstone.setToPixelCoordinateSystem( )这个接口可以实现这样的坐标系转换。
 我们来看看setToPixelCoordinateSystem是如何实现的
 
 ``` 
@@ -61,5 +61,5 @@ export default function (enabledElement, scale) {
   return transform;
 }
 ```
-canvas 通过transform接口用矩阵处理的方式，实现对坐标系的旋转位移缩放操作。setTransform()方法会重置前面的矩阵，然后再绘制出一个新的矩阵；transform()方法则不会重置前面的矩阵，而是在前面的基础上继续进行缩放、位移或者旋转。我们的Cornerstone则利用了setTransform来重置当前的像素坐标系。在每次图片渲染后，通过图片的viewport，可以计算出transform的矩阵参数，在重置当前的像素坐标系后，那么新绘制的标记（相对像素的坐标）则可以正确的进行定位。
+canvas 通过transform接口用矩阵处理的方式，实现对坐标系的旋转位移缩放操作。setTransform( )方法会重置前面的矩阵，然后再绘制出一个新的矩阵；transform( )方法则不会重置前面的矩阵，而是在前面的基础上继续进行缩放、位移或者旋转。我们的Cornerstone则利用了setTransform来重置当前的像素坐标系。在每次图片渲染后，通过图片的viewport，可以计算出transform的矩阵参数，在重置当前的像素坐标系后，那么新绘制的标记（相对像素的坐标）则可以正确的进行定位。
 

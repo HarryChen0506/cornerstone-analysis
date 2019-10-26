@@ -1,8 +1,8 @@
 # 如何实现缓存机制
 
-Cornerstone设计的图片缓存机制，在用户切换图片时起到非常关键的作用。区别于其他的图形图像库，例如Papaya,后者需要提前获取一组DICOM图像，或者一个nifti文件包（包含多张DICOM），这样会导致初次加载耗时非常长，用户体验不佳。Cornerstone作为基础的2D图像库，它每次只处理单张imageId的数据，任何切换图像的操作需要重新调用 `loadImage`接口。因此如果没有良好的缓存机制，则不能流畅的进行图片切换。
+Cornerstone设计的图片缓存机制，在用户切换图片时起到非常关键的作用。区别于其他的图形图像库，例如Papaya,后者需要提前获取一组DICOM图像，或者一个nifti文件压缩包（包含多张DICOM），这样会导致初次加载耗时非常长，用户体验不佳。Cornerstone作为基础的2D图像库，它每次只处理单张imageId的数据，任何切换图像的操作需要重新调用 `loadImage`接口，因此可以实现懒加载。如果没有良好的缓存机制，就不能流畅地进行图片切换了。
 
-loadImage
+loadImage.js
 ```
 // 代码略有改动，只展示了核心原理，具体步骤忽略
 export function loadImage (imageId, options) {
