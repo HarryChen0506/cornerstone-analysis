@@ -2,7 +2,7 @@
 * [前言](README.md)
 * [总览](introduction/index.md)
 * [Conerstone Core](core/index.md)
-    * [概念](core/concepts/enabledElement.md)
+    * 概念
         * [Enabled Element](core/concepts/enabledElement.md)
         * [Image Ids](core/concepts/imageIds.md)
         * [Image Loaders](core/concepts/imageLoaders.md)
@@ -14,7 +14,7 @@
         * [Metadata Providers](core/concepts/metadataProviders.md)
         * [Image Cache](core/concepts/imageCache.md)
         * [Modality LUT and VOI LUT](core/concepts/modalityLUTandVoiLUT.md)
-    * [分析](core/concepts/enabledElement.md)
+    * 分析
         * [如何实现坐标系转换](core/analysis/howToTransformCoordinate.md)
         * [渲染过程发生了什么](core/analysis/howToRender.md)
         * [如何实现缓存机制](core/analysis/howToCacheImage.md)
